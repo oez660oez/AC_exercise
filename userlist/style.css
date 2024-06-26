@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: lightyellow
+}
+
+body {
+  background-color: lightyellow
+}
+
+.card-img-top {
+  transition: transform 0.2s ease;
+  /* 添加變換效果的動畫 */
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+  /* 游標經過時放大 1.1 倍 */
+}
+
+/* 主要內容為白色，有圓角與陰影 */
+.div-contentbg {
+  background-color: white;
+  margin: 1% 10%;
+  padding: 1%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 10px;
+}
+
+.navbar {
+  margin: 0.5% 0
+}
+
+#paginator {
+  margin: auto
+}
+
+/* 幻燈片 */
+.Carousel-size {
+  width: 50%;
+  height: 50%;
+  position: relative;
+}
