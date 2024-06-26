@@ -1,0 +1,139 @@
+html,
+body {
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.main {
+  width: 300px;
+  height: 500px;
+  background: linear-gradient(161.98deg, #07E3A1 13.65%, #191970 87.85%);
+  margin: 100px auto;
+  position: relative;
+  border-radius: 20px;
+}
+
+/* Bonus for you: center a background image! */
+.bernard-img {
+  width: 128px;
+  height: 156px;
+  background-image: url(https://assets-lighthouse.alphacamp.co/uploads/image/file/14990/Bernard_keyer.png);
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 92px;
+  border-radius: 62px;
+  z-index: 3;
+}
+
+/* begin your styles here!*/
+/* Basic White Circle */
+.circle-white {
+  /*   Positioning */
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  /*   Box Model */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px 0px #666;
+  /*   Color and Layer */
+  background: white;
+  z-index: 5;
+}
+
+/* Basic Red Circle */
+.circle-red {
+  /*   Positioning */
+  position: absolute;
+  right: 0px;
+  /*   Box Model */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px 0px #666;
+  /*   Color and Layer */
+  background: red;
+  z-index: 6;
+}
+
+/* Basic White Block */
+.white-region {
+  /*   Positioning */
+  position: absolute;
+  bottom: 0px;
+  top: 40%;
+  /*   Box Model */
+  border-radius: 20px;
+  /*   Color and Layer */
+  background-color: white;
+  z-index: 2;
+}
+
+/* Basic Content Region */
+.content {
+  /*   Positioning */
+  position: relative;
+  margin: 70px 20px 5px 20px;
+  /*   Box Model */
+  height: 200px;
+}
+
+/* Title Name */
+h1 {
+  /*   Positioning */
+  position: absolute;
+  left: 30%;
+  top: 0px;
+  /*   Box Model */
+  margin: 0px;
+  /*   Font and Layer */
+  font: normal 30px "Roboto";
+  z-index: 2;
+  color: black;
+}
+
+/* Sub Title */
+.black-region>span {
+  /*   Positioning */
+  position: absolute;
+  top: 40px;
+  right: 62px;
+  /*   Display */
+  display: inline-block;
+  /*   Box Model */
+  width: auto;
+  height: 20px;
+  padding: 0px 10px;
+  border-radius: 25px;
+  /*   Font and Others */
+  font: normal 12px "Roboto";
+  line-height: 20px;
+  color: white;
+  background: black;
+  z-index: 2;
+}
+
+/* Describe */
+p {
+  /*   Positioning */
+  position: relative;
+  top: 80px;
+  /*   Box Model */
+  padding: 0px 15px;
+  /*   Font and Others */
+  font: normal 14px "Noto Sans TC", sans-serif;
+  Color: black;
+  line-height: 16px;
+}
